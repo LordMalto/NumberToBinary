@@ -16,6 +16,4 @@ def intoBinary(number):
 
   return "".join(reversed(binarynumber))
 
-
-num = int(input("Number:"))
-intoBinary(num)
+print(intoBinary(int(input("Number:"))))
